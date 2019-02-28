@@ -1,0 +1,9 @@
+<div class="container">
+
+  <h1>Give the ingredients of the cocktail</h1>
+    <%= simple_form_for(@dose) do |f| %>
+      <%= f.input :ingredients %>
+      <%= f.input :description %>
+      <%= f.button :submit %>
+    <% end %>
+</div>
